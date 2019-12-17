@@ -6,9 +6,15 @@
     android:orientation="vertical">
 
     <Button
-        android:id="@+id/ok"
+        android:id="@+id/login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@android:string/ok"/>
+        android:text="login"/>
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="logout"/>
 
 </LinearLayout>
